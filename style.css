@@ -1,0 +1,53 @@
+#about {
+    height: 100vh;
+  
+}
+/* first part */
+.first {
+    height: 100vh;
+    background-image: url(./hotel.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.heading {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 100;
+    margin-bottom: -8rem;
+    color: #dcc6c8;
+    font-size: 96px;
+}
+.shead{
+    font-size: 36px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20rem;
+}
+
+/* 2nd part */
+.second{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.a-img2{
+    width: 50%;
+    border-radius: 0.8rem;
+    transition: 2s;
+}
+
+.a-img2:hover{
+    box-shadow: 0.8rem 0.8rem 0.8rem red
+}
+.right p{
+    width: 50%;
+    font-size: 1.7rem;
+}
